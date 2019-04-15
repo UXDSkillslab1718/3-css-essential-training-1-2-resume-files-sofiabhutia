@@ -1,0 +1,3 @@
+I made my final assignment and skipped this intermediate assignment. However, in the class' whatsapp group it became apparant to me that I had to finish these assignments in order to be graded. If I were to follow the tutorial on Lynda I would end up making the exact same website without the school project pages. Therefore I hereby submit my final website as these intermediate assignments. I hope you understand.
+
+Sofia

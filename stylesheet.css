@@ -1,0 +1,374 @@
+html {
+	scroll-behavior: smooth;
+	opacity: 1;
+	transition: 1s ease-in;
+}
+
+header {
+	background-color: red;
+	width: 100%;
+	height: 60px;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	position: fixed;
+	z-index: 100;
+}
+
+footer {
+	background-color: rgb(100,100,100);
+	height: 100px;
+	display: block;
+	position: relative;
+	text-align: center;
+}
+
+footer p {
+	margin-top: 10px;
+	display: inline-block;
+	font-style: none;
+	color: rgb(240,240,240);
+	font-family: 'Open Sans', sans-serif;
+}
+
+body {
+	margin: 0;
+	display: inline;
+	background-color: #DDD1C7;
+}
+
+p {
+	margin: 0;
+	display: inline;
+}
+
+section {
+	font-family: 'Open Sans', sans-serif;
+}
+
+footer h1 {
+	font-family: 'Open Sans', sans-serif;
+	color: rgb(240,240,240);
+	text-align: center;
+	margin-top: 0;
+	font-size: 12px;
+}
+
+.menuBar {
+	width: 100%;
+	height: 60px;
+	background-color: rgb(240,240,240);
+	display: inline-block;
+}
+
+.menuBar p {
+	margin-left: 20px;
+	margin-right: 20px;
+	font-weight: bold;
+	font-size: 20PX;
+	display: inline-block;
+	margin-top: 15px;
+	color: rgb(230,17,15);
+	transition: 0.5s;
+	opacity: 1;
+}
+
+.menuBar p:hover {
+	font-size: 26PX;
+	transition: 0.5s;
+	margin-top: 0px;
+	transform: rotate(360deg);
+	cursor: pointer;
+}
+
+.about {
+	width: 65%;
+	height: 500px;
+	margin: 0 auto;
+	background-color: #4B4A67;
+	display: block;
+	position: relative;
+	margin-top: 60px;
+}
+
+.assingment {
+	width: 65%;
+	height: 900px;
+	margin: 0 auto;
+	display: block;
+	position: relative;
+	margin-top: 60px;
+}
+
+.about h1 {
+	color: rgb(240,240,240);
+}
+
+.about p {
+	color: rgb(240,240,240);
+}
+
+.education {
+	width: 65%;
+	height: 620px;
+	margin: 0 auto;
+	background-color: #4B4A67;
+	display: block;
+	position: relative;
+	overflow: hidden;
+}
+
+.educationBackground {
+	width: 120%;
+	height: 640px;
+	margin: 0 auto;
+	background-color: #4B4A67;
+	display: block;
+	position: absolute;
+	filter: blur(2px);
+	background-image: url(images/xining.jpg);
+	margin-left: -40px;
+	margin-top: -10px;
+}
+
+.education h1 {
+	color: rgb(240,240,240);
+}
+
+.education p {
+	color: rgb(240,240,240)
+}
+
+.workExperience {
+	width: 65%;
+	height: 420px;
+	margin: 0 auto;
+	background-image: linear-gradient(#808685, #7E8987, #697271);
+	background-color: #7E8987;
+	display: block;
+	position: relative;
+	overflow: hidden;
+}
+
+.workExperience h1 {
+	color: rgb(240,240,240);
+}
+
+.workExperience p {
+	color: rgb(240,240,240);
+}
+
+.workBackground {
+	width: 120%;
+	height: 440px;
+	margin: 0 auto;
+	display: block;
+	position: absolute;
+	filter: blur(2px);
+	background-image: url(images/teach.jpg);
+	margin-left: -40px;
+	margin-top: -10px;
+}
+
+.schoolProjects {
+	width: 65%;
+	margin: 0 auto;
+	background-color: #4B4A67;
+	display: block;
+	position: relative;
+}
+
+.schoolProjects h1 {
+	color: rgb(240,240,240);
+
+}
+
+.leftColumn {
+	width: 50%;
+	height: 100%;
+	display: inline-block;
+	position: relative;
+}
+
+.leftColumn_02 {
+	width: 50%;
+	height: 100%;
+	display: inline-block;
+	position: relative;
+}
+
+.leftColumn_02 img {
+	width: 100%;
+	margin-top: 50px;
+}
+
+.leftColumn img {
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 90px;
+	display: block;
+	border-radius: 50%;
+}
+
+.rightColumn {
+	width: 50%;
+	height: 100%;
+	display: inline;
+	position: absolute;
+}
+
+.textbox {
+	width: 75%;
+	height: 75%;
+	display: inline-block;
+	position: absolute;
+	margin-left: 75px;
+	margin-top: 40px;
+}
+
+.textbox h1 {
+	font-size: 48px;
+	margin-bottom: 10px;
+}
+
+.textbox p {
+	text-align: center;
+	font-size: 22px;
+}
+
+section h1 {
+	margin: 0;
+}
+
+.containerTitle {
+	text-align: center;
+	width: 100%;
+	height: 20px;
+	margin-top: 10px;
+	position: relative;
+	display: inline-block;
+	margin-bottom: 20px;
+}
+
+.containerTitle h1 {
+	font-size: 36px;
+}
+
+.centerColumn {
+	width: 80%;
+	height: 200px;
+	display: block;
+	position: relative;
+	margin: 0 auto;
+	margin-top: 40px;
+}
+
+.timestamp {
+	width: 40%;
+	height: 50px;
+	display: inline-block;
+	margin-bottom: 30px;
+}
+
+.contextBox {
+	width: 50%;
+	height: 50px;
+	display: inline;
+	position: relative;
+	float: right;
+	margin-bottom: 30px;
+}
+
+.textbox_02 {
+	float: right;
+}
+
+.textbox_02 h1 {
+	margin-right: 10px;
+	font-size: 24px;
+}
+
+.schoolRow {
+	width: 100%;
+	height: 300px;
+	background-color: #000;
+	display: block;
+	position: relative;
+	transition: all 1s ease-out;
+}
+
+.schoolEntry {
+	width: 60%;
+	height: 300px;
+	display: inline-block;
+	position: relative;
+	text-align: center;
+	opacity: 0;
+	transition: 1s;
+	margin-left: 20%;
+	overflow: hidden;
+}
+
+.schoolRow img {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	filter: blur(2px);
+}
+
+.schoolEntry:hover {
+	opacity: 1;
+	transition: 1s;
+	width: 60%;
+}
+
+.schoolEntry h1 {
+	font-style: none;
+	margin-top: 10px;
+	font-size: 36px;
+	font-weight: bold;
+	color: rgb(240,240,240);
+}
+
+.schoolEntry p {
+	font-style: none;
+	font-size: 24px;
+	color: rgb(240,240,240);
+}
+
+.myButton {
+	-moz-box-shadow:inset 0px 39px 0px -24px #e67a73;
+	-webkit-box-shadow:inset 0px 39px 0px -24px #e67a73;
+	box-shadow:inset 0px 39px 0px -24px #e67a73;
+	background-color:#e4685d;
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+	border-radius:4px;
+	border:1px solid #ffffff;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	padding:13px 49px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #b23e35;
+	border: none;
+	font-weight: bold;
+}
+
+.myButton:hover {
+	background-color:#eb675e;
+}
+
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.pdf {
+	display: inline-block;
+	margin-left: 42%;
+	z-index: 100;
+	position: relative;
+}
